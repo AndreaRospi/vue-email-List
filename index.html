@@ -12,6 +12,11 @@
 <body>
 
     <div id="root">
+        <ul>
+            <li v-for='email in emails' v-if='emails.length == 10'>
+                {{email}}
+            </li>
+        </ul>
 
     </div>
 
